@@ -16,3 +16,10 @@ void pesan(){
 
 }
 };
+
+class lia : public sesorang {
+public:
+void pesan()  {
+    cout << "Pesan dari kelas lia" << endl;
+}
+};
