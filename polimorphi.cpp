@@ -23,3 +23,7 @@ void pesan()  {
     cout << "Pesan dari kelas lia" << endl;
 }
 };
+
+int main(){
+    sesorang *obyek;
+ 
