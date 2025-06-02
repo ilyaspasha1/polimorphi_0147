@@ -11,7 +11,7 @@ virtual void pesan() {
 
 class joko : public sesorang {
 public:
-void pesan(){
+void pesan() override {
     cout << "Pesan dari joko" << endl;
 
 }
@@ -19,11 +19,14 @@ void pesan(){
 
 class lia : public sesorang {
 public:
-void pesan()  {
+void pesan() override {
     cout << "Pesan dari kelas lia" << endl;
 }
 };
 
 int main(){
     sesorang *obyek;
- 
+    joko a;
+    lia b;
+   
+
