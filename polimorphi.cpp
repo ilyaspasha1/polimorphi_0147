@@ -29,4 +29,7 @@ int main(){
     joko a;
     lia b;
    
+    obyek = &a;
+    obyek->pesan(); // Output: Pesan dari joko
 
+   
