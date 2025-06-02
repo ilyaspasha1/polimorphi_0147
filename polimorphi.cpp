@@ -8,3 +8,11 @@ virtual void pesan() {
     cout << "Pesan dari kelas sesorang" << endl;
 }
 };
+
+class joko : public sesorang {
+public:
+void pesan(){
+    cout << "Pesan dari joko" << endl;
+
+}
+};
